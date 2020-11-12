@@ -1,0 +1,70 @@
+body{
+    background-color: #2E9AFE;
+}
+.imgPersonaje{
+    height: 250px;
+}
+
+#color{
+    color: white;
+}
+#close{
+    color: white;
+}
+.color{
+    color: white;
+}
+
+.imgPersonaje2{
+    height: 500px;
+    width: 800px;
+    text-align-last: center;
+}
+
+h1{
+   text-align: center;
+}
+.contenedorImagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.btnJugar {
+    font-size: large;
+    position: absolute;
+    top: 500px;
+    left: 550px; 
+    margin-top: 9px;
+}
+.pregunta {
+    display: flex;
+   /* background-color: blanchedalmond;*/
+    padding: 5px;
+}
+
+.contenedorPreguntas{
+    width: 600px;
+    margin: auto;
+    background-color: rgb(237, 100, 157);
+    border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.ico{
+    height: 25px;
+}
+
+.divRespuesta {
+    margin: 5px;
+}
+.divPregunta {
+    margin: 5px;
+}

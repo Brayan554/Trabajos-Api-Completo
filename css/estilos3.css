@@ -1,0 +1,137 @@
+* { 
+    margin:0 ;
+    padding:0;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color:#0f0;
+    font-size:16px;
+  }
+  body {
+  
+    font-family:verdana;
+  }
+  h1 {
+    color : black;
+    font-size:24px;
+    font-family: 'Lobster', cursive;
+  }
+  p {
+    font-size:20px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+  }
+  ul {
+    list-style-type:none;
+  }
+  #cabecera {
+    
+    color:#ff9;
+    background-color:black;
+    padding:10px;
+    margin-top: 10px;
+    
+  }
+  #contenedor {
+    margin:0 auto;
+    width:800px;
+    
+  }
+  #contenido {
+    background-color:#ddd;
+    float:left;
+    height:600px;
+    padding:10px;
+    width:600px;
+  }
+  #menu {
+    background-color:#999;
+    float:left;
+    height:600px;
+    padding:20px;
+    width:199px;
+  }
+  #pie { 
+    background-color:#bbb;
+    clear:both;
+    color:#900;
+    padding:1px;
+    text-align:center;
+    height: 30px;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    position: relative;
+    left: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 155px;
+    margin-bottom: 6px;
+    height: 58px;
+
+  }
+  .contenedorHeader{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    border-radius: 25px;
+    padding:  10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icoFlecha{
+  width: 70px;
+}
+.cards{
+  width: 430px;
+  padding: 15px;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  left: 80px;
+  height: 220px;
+}
+
+.formatoImg{
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  left: 50px;
+}
+
+.contenedorTextos{
+  height: 100px;
+  width: 300px;
+  padding: 15px;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+
+.txtLabel{
+  font-weight: 300;
+  margin: 0;
+  color: white;
+}
+
+.txtTexto{
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+.ha{
+  text-align: center;
+  margin-top: 20px;
+}
+.color{
+  color: #4CAF50;
+}
